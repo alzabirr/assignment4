@@ -34,3 +34,8 @@ document.getElementById("parent").addEventListener("click", (e) => {
 });
 
 5. What is the difference between preventDefault() and stopPropagation() methods?
+document.getElementById("parent").addEventListener("click", (e) => {
+  e.preventDefault();
+  e.stopPropagation();
+});
+
